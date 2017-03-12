@@ -1,0 +1,31 @@
+{
+  "name": "jsonapi-relationaldb",
+  "version": "0.0.1",
+  "description": "Relational data handler for jsonapi-server",
+  "main": "lib/sqlHandler.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnowy/jsonapi-relationaldb.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnowy/jsonapi-relationaldb/issues"
+  },
+  "homepage": "https://github.com/gnowy/jsonapi-relationaldb#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "debug": "^2.6.2",
+    "joi": "^10.2.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
